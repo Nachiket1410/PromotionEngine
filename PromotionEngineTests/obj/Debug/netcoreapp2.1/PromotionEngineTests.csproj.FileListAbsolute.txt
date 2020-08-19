@@ -1,0 +1,10 @@
+C:\Users\Samiket\source\repos\Maersk_Test\PromotionEngineTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Samiket\source\repos\Maersk_Test\PromotionEngineTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Samiket\source\repos\Maersk_Test\PromotionEngineTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Samiket\source\repos\Maersk_Test\PromotionEngineTests\bin\Debug\netcoreapp2.1\PromotionEngineTests.deps.json
+C:\Users\Samiket\source\repos\Maersk_Test\PromotionEngineTests\bin\Debug\netcoreapp2.1\PromotionEngineTests.runtimeconfig.json
+C:\Users\Samiket\source\repos\Maersk_Test\PromotionEngineTests\bin\Debug\netcoreapp2.1\PromotionEngineTests.runtimeconfig.dev.json
+C:\Users\Samiket\source\repos\Maersk_Test\PromotionEngineTests\bin\Debug\netcoreapp2.1\PromotionEngineTests.dll
+C:\Users\Samiket\source\repos\Maersk_Test\PromotionEngineTests\obj\Debug\netcoreapp2.1\PromotionEngineTests.csproj.CoreCompileInputs.cache
+C:\Users\Samiket\source\repos\Maersk_Test\PromotionEngineTests\obj\Debug\netcoreapp2.1\PromotionEngineTests.AssemblyInfoInputs.cache
+C:\Users\Samiket\source\repos\Maersk_Test\PromotionEngineTests\obj\Debug\netcoreapp2.1\PromotionEngineTests.AssemblyInfo.cs

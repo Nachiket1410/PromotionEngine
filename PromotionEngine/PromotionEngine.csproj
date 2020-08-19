@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdditionalItemOffer.cs" />
+    <Compile Include="ComboOffer.cs" />
+    <Compile Include="IConsoleMethods.cs" />
+    <Compile Include="IProduct.cs" />
+    <Compile Include="NoOffer.cs" />
+    <Compile Include="Offers.cs" />
+    <Compile Include="PercentDiscountOffer.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Samiket\\source\\repos\\Maersk_Test\\PromotionEngineTests\\PromotionEngineTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Samiket\\source\\repos\\Maersk_Test\\PromotionEngineTests\\PromotionEngineTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Samiket\\source\\repos\\Maersk_Test\\PromotionEngineTests\\PromotionEngineTests.csproj",
+        "projectName": "PromotionEngineTests",
+        "projectPath": "C:\\Users\\Samiket\\source\\repos\\Maersk_Test\\PromotionEngineTests\\PromotionEngineTests.csproj",
+        "packagesPath": "C:\\Users\\Samiket\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Samiket\\source\\repos\\Maersk_Test\\PromotionEngineTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samiket\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Samiket\\source\\repos\\Maersk_Test\\PromotionEngine\\PromotionEngine.csproj": {
+                "projectPath": "C:\\Users\\Samiket\\source\\repos\\Maersk_Test\\PromotionEngine\\PromotionEngine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Samiket\\source\\repos\\Maersk_Test\\PromotionEngine\\PromotionEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Samiket\\source\\repos\\Maersk_Test\\PromotionEngine\\PromotionEngine.csproj",
+        "projectName": "PromotionEngine",
+        "projectPath": "C:\\Users\\Samiket\\source\\repos\\Maersk_Test\\PromotionEngine\\PromotionEngine.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
