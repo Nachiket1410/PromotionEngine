@@ -79,6 +79,8 @@ namespace PromotionEngine
             float productD_cost = 0;
             float productA_comboDiscountedPrice = 0;
             float productA_percentDiscountedPrice = 0;
+
+            // Considering Product A has both discount of combo and percent discount. So giving user discount which gives him/her max savings
             foreach (string discount in productA.discountList)
             {
                 if (discount.Equals("Combo"))
@@ -95,8 +97,12 @@ namespace PromotionEngine
             }
             productA_cost = productA_comboDiscountedPrice < productA_percentDiscountedPrice ? productA_comboDiscountedPrice : productA_percentDiscountedPrice;
             Console.WriteLine("\n\n Product A total cost :" + productA_cost);
+
+            // Calculating Product B price
             productB_cost = productB_Combo.calculatePrice(quantity_B);
             Console.WriteLine("\n\n Product B total cost :" + productB_cost);
+
+            // Calculating product C price based on multiple possible combinations of quantity of C and D
             if (quantity_C == 1 && quantity_D == 1)
             {
                 productC_cost = productC_AdditionItem.calculatePrice(1);
@@ -106,6 +112,8 @@ namespace PromotionEngine
                 productC_cost = productC_AdditionItem.calculateAdditionalCost(quantity_C, quantity_D);
             }
             Console.WriteLine("\n\n Product C total cost :" + productC_cost);
+
+            // For extra items of Product D this is the logic
             if (quantity_D > quantity_C)
             {
                 int extra_DItems = quantity_D - quantity_C;

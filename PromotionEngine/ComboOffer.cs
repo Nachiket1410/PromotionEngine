@@ -18,6 +18,7 @@ namespace PromotionEngine
 
         public override float calculatePrice(int totalItems)
         {
+            // Calculating price of combo offer items
             int totalEligibleItems = totalItems / _requiredNumberOfItems;
             int remainingItems = totalItems % _requiredNumberOfItems;
             float finalPrice = _discountedPrice * totalEligibleItems + base.productPrice * remainingItems;

@@ -27,6 +27,8 @@ namespace PromotionEngine
 
         public int calculateAdditionalCost(int quantity_C, int quantity_D)
         {
+            //Calculating price for extra C items or C == D quantity
+
             int finalPrice = 0;
             if(quantity_C == quantity_D)
             {

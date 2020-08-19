@@ -15,6 +15,8 @@ namespace PromotionEngine
             _totalPercentDiscount = totalPercentDiscount;
             _maxDiscount = maxDiscount;
         }
+
+        // Calculating price by giving n% of pre decided discount
         public override float calculatePrice(int totalItems)
         {
             float totalDiscount = ((totalItems * productPrice) / 100) * _totalPercentDiscount;
